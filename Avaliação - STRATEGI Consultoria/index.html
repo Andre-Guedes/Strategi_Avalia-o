@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='main.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    
+    <title>Avaliação - STRATEGI Consultoria</title>
+</head>
+<body>
+    <h1>Avaliação - André Luis Guedes da Silva</h1>
+    <div class="main">
+
+        <div class="form">
+
+            Nome:
+            <input type="text" placeholder="Por favor, digite seu nome" id="name">
+
+            CPF:
+            <input type="text" placeholder="Informe seu CPF" autocomplete="off" maxlength="14" id="cpf">
+
+            Data de Nascimento:
+            <input type="date" name="birthday" id="birthday">
+
+            Idade:
+            <input type="number" id="age">
+
+            CEP:
+            <input type="text" name="" id="cep">
+
+            Logradouro:
+            <input type="text" name="" id="logradouro">
+
+            Número:
+            <input type="text" name="" id="number">
+
+            Bairro:
+            <input type="text" name="" id="bairro">
+
+            Cidade:
+            <input type="text" name="" id="localidade">
+
+            Estado:
+            <input type="text" name="" id="uf">
+
+            <div class="hobbyConteiner">
+                Hobby:
+                <input type="text" id="hobby" placeholder="Informe quais são seus hobbies">
+                    <button id="btnHobby">Adicionar</button>
+                </input>
+                <div><ul id="newHobby"></ul><div>
+            </div>
+            
+            <div class="lgpdConteiner">
+                <input type="checkbox" id="chkLgpd">
+                <label for="chkLgpd" id="lgpd">Ao utilizar este site, você concorda com a coleta e tratamento de seus dados pessoais por meio de formulários e cookies, segundo o que estabelece a LGPD (Lei Geral de Proteção de Dados).</label>
+            </div>
+
+            <button  onclick="" id="btnSubmit">Enviar dados</button>
+            
+        </div>
+        
+    </div>
+    
+    <div class="modal">
+        <i class='bx bx-badge-check' ></i>
+        <h2>Seus dados foram enviados com Sucesso</h2>
+        <textarea id="txtArea" cols="30" rows="10" ></textarea>
+        <button onclick=window.location.reload()>Retornar</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+
+</html>
