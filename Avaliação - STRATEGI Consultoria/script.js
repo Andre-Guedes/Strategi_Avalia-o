@@ -158,7 +158,7 @@ loadHobbies()
 /** ==========================================================================================================*/
 /** BLOCO - Coleta de dados do Formulário  */
 
-const body = document.querySelector('.form').children
+const body = document.querySelectorAll('input')
 const txtArea = document.querySelector('#txtArea')
 const modal = document.querySelector('.modal')
 const chkLgpd = document.querySelector('#chkLgpd')
